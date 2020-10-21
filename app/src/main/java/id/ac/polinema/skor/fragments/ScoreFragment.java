@@ -95,5 +95,4 @@ public class ScoreFragment extends Fragment {
 		}
 		return result.toString();
 	}
-
 }
