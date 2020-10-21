@@ -43,8 +43,7 @@ public class ScoreFragment extends Fragment {
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 							 Bundle savedInstanceState) {
-		FragmentScoreBinding binding = DataBindingUtil
-				.inflate(inflater, R.layout.fragment_score, container, false);
+		FragmentScoreBinding binding = DataBindingUtil.inflate(inflater, R.layout.fragment_score, container, false);
 		binding.setFragment(this);
 		binding.setHomeGoalScorerList(homeGoalScorerList);
 		binding.setAwayGoalScorerList(awayGoalScorerList);
